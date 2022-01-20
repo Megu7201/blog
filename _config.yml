@@ -102,4 +102,9 @@ theme: sagiri
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:Megu7201/blog.git
+  branch: master
+  message: deploy
+  name: megu7201
+  email: megumi9201@gmail.com
